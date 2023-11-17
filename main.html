@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<! You can honestly learn html in a day, so i wouldnt look at this document
+if your goal is to learn the language syntax from it :/
+
+but if you just want to see basic frontend dev then this is the bare basic stuff yk>
+
+<! And if there is a certain element you dont understand, i highly recomend MDN web docs>
+
+
+
+<html>
+	<title>Example website</title>
+	<body>
+		<form method="get"> 
+			
+			<! My personal opinion, if you're getting user input, even without backend intergration, you should wrap it
+			in a form tag just to make it more comprehendable when reading>
+
+			<input type="text" placeholder="Enter Message" id="textbox1"/><br><br>
+			<! Placeholder is just the shadowed text in the textbox before we write in it>
+
+			<button id="button1" type="button"  onclick="getData()">Submit</button><br><br>
+			<! the onclick attribute states that the function 'getData()' will run when the button is clicked; thats how we make
+			stuff happen when the button is pressed>
+
+		</form>
+
+		<div id="userOutput">
+			hello there
+		</div>
+
+		<div id="directions">
+	
+			<p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">write some text into the Enter Message box, then
+				click submit
+			</p>
+			<! we can write css directly in the element by using the style attribute>
+
+			<p style="color: aqua; font-family: sans-serif;">
+				If you're looking for help understanding the basic syntax of html, js, or css. W3Schools has really good basic
+				examples that id personally recommend.<br><br>
+				https://www.w3schools.com/
+			</p>
+		
+		</div>
+	</body>
+
+	<link rel="stylesheet" href="stys.css"> <! import the .css file from the working directory>
+	<script src="index.js"></script> <! import the .js file from the working directory>
+
+</html>
+
+

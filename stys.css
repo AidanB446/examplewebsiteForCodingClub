@@ -1,0 +1,42 @@
+
+/*most of the styling attributes should be self explainable
+ * but if youre confused they are all google-able*/
+
+
+#userOutput { /* we use the hashtag to call upon that element with that id*/
+	background-color: black;
+	opacity: 1;
+	width: 50%;
+	height: 35%;
+	color: white;
+	border-radius: 15px;
+	border-color: white;
+	padding: 5px;
+	position: fixed;
+	font-family: sans-serif;
+}
+
+#textbox1 {
+	border-radius: 10px;
+	padding: 5px;
+	border-color: black;
+
+}
+
+#button1 {
+	border-radius: 5px;
+	padding: 3px;
+}
+
+#directions {
+	background-color: black;
+	border-radius: 10px;
+	padding: 5px;
+	border-color: white;
+	color: white;
+	position: absolute;
+	right: 5%;
+	bottom: 25%;
+	width: 40%;
+	height: 35%;
+}
